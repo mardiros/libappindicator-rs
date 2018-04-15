@@ -13,8 +13,8 @@ keywords = ["linux", "gui", "gtk"]
 travis-ci = { repository = "qdot/libappindicator-rs" }
 
 [dependencies]
-log="0.3"
-glib="0.3"
-gtk="0.2"
-gtk-sys="0.4"
-libappindicator-sys="0.1"
+log="0.4"
+glib="0.5"
+gtk = "0.4"
+gtk-sys="0.6"
+libappindicator-sys= { git = "https://github.com/mardiros/libappindicator-sys", branch = "features/update-gtk-sys" }
